@@ -48,7 +48,7 @@ print("Splitting done...")
 
 import ollama
 
-# ollama.pull("nomic-embed-text")
+ollama.pull("nomic-embed-text")
 
 vector_db = Chroma.from_documents(
     documents=chunks,
